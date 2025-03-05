@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* this is the header */
+
+#headers{
+    height: 100px;
+    width: auto;
+    background-color: #31263E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(239, 43, 160,0.5);
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 30px;
+}
+#navList{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+
+}
+
+.list a{
+    padding: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list a:hover{
+    padding: 10px;
+    font-size: 25px;
+    color: pink;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+/* This is the body of the page */
+
+#MainBody{
+    height: 500px;
+    width: auto;
+    background-color: #31263E;
+}
+
+#div1{
+    height: 40px;
+    width: auto;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2{
+    height: 150px;
+    width: 150px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+#div3{
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#subDiv1,#subDiv2{
+    height: 150px;
+    width: 500px;
+}
+
+#subDiv1 label,#subDiv2 label{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 30px 0px 30px 30px;
+    line-height: 50px;
+}
+
+#subDiv1 input, #subDiv2 input{
+    height: 25px;
+    width: 250px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+#uName,#cNo{
+    padding-left: 10px;
+}
+
+#div4{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#div4 button{
+    height: 35px;
+    width: 250px;
+    background-color: #0A84EE;
+    border: 0px;
+    border-radius: 4px;
+}
+
+#div4 button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#div4 button:hover{
+    background-color: rgba(10, 132, 238,0.5);
+}
+
+/*  this is the footer of the page */
+
+#footerMain{
+    height: 134px;
+    width: auto;
+    background-color: #31263E;
+    border: 1px solid rgba(239, 43, 160,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    color: #ffffff;
+}
+
+#footerNav{
+    width: 1000px;
+    height: 132px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footerDiv1 p, #footerDiv2 p, #footerDiv3 p{
+    font-size: 20px;
+
+}
+
+#listF1,#listF2,#listF3,#listF4,#listF5{
+    list-style: none;
+}
+
+#listF1 a,#listF2 a,#listF3 a,#listF4 a{
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* this is the header */
+
+#headers{
+    height: 100px;
+    width: auto;
+    background-color: #31263E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(239, 43, 160,0.5);
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 30px;
+}
+#navList{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+
+}
+
+.list a{
+    padding: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list a:hover{
+    padding: 10px;
+    font-size: 25px;
+    color: pink;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+/* This is the ody of the page */
+body{
+    background-color: #31263E;
+}
+#MainBody{
+    height: 423.5px;
+    width: auto;
+    background-color: #31263E;
+    display: block;
+    align-items: center;
+}
+
+#textDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 5px 0px;
+    font-size: 29px;
+    color: #ffffff;
+}
+#subDiv1,#subDiv2,#subDiv3,#subDiv4{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 80px;
+    width: auto;
+    border: 1px solid rgba(239, 43, 160,0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#div2,#div4,#div6,#div8{
+    border: 1px solid rgba(239, 43, 160,0.5);
+    border-radius: 4px;
+    height: 50px;
+    width: 500px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+#div1,#div3,#div5,#div7{
+    height: 50px;
+    width: 400px;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#div2 p,#div4 p,#div6 p,#div8 p{
+    margin: 5px 10px 5px 10px;
+}
+
+/*  this is the footer of the page */
+
+#footerMain{
+    height: 143px;
+    width: auto;
+    background-color: #31263E;
+    border: 1px solid rgba(239, 43, 160,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    color: #ffffff;
+}
+
+#footerNav{
+    width: 1000px;
+    height: 132px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footerDiv1 p, #footerDiv2 p, #footerDiv3 p{
+    font-size: 20px;
+
+}
+
+#listF1,#listF2,#listF3,#listF4,#listF5{
+    list-style: none;
+}
+
+#listF1 a,#listF2 a,#listF3 a,#listF4 a{
+    text-decoration: none;
+    color: #ffffff;
+}
